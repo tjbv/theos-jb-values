@@ -1,0 +1,170 @@
+body {
+    background: url(assets/background.png);
+    background-size: cover;
+}
+
+.h1Text {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-family: 'Righteous', cursive;
+}
+
+.header {
+    background: black;
+    border: 1px solid white;
+    border-radius: 100px;
+    margin-bottom: 50px;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.texturesButton {
+    background: darkviolet;
+    color: violet;
+    padding: 10px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-family: 'Righteous', cursive;
+    font-size: 15px;
+    border: 1px solid violet;
+}
+
+.texturesButton:hover {
+    background: violet;
+    color: darkviolet;
+}
+
+.homeButton {
+    background: maroon;
+    color: red;
+    padding: 10px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-family: 'Righteous', cursive;
+    font-size: 15px;
+    border: 1px solid red;
+}
+
+.homeButton:hover {
+    background: red;
+    color: maroon;
+    border: 1px solid maroon
+}
+
+.vehiclesButton {
+    background: darkgreen;
+    color: greenyellow;
+    padding: 10px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-family: 'Righteous', cursive;
+    font-size: 15px;
+    border: 1px solid greenyellow;
+}
+
+.vehiclesButton:hover {
+    background: greenyellow;
+    color: darkgreen;
+    border: 1px solid darkgreen;
+}
+
+.colorsButton {
+    color: rgb(169, 169, 255);
+    background: blue;
+    padding: 10px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-family: 'Righteous', cursive;
+    font-size: 15px;
+    border: 1px solid rgb(169, 169, 255);
+}
+
+.colorsButton:hover {
+    color: blue;
+    background: rgb(169, 169, 255);
+    border: 1px solid blue;
+}
+
+.divisorText {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: 'Righteous', cursive;
+}
+
+.vehicles {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.textures {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.colors {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 300px;
+    background: black;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+.boxImg {
+    max-width: 100%;
+    height: auto;
+}
+
+.boxText {
+    color: white;
+    text-align: center;
+    font-family: 'Righteous', cursive;
+}
+
+.h4Text {
+    color: white;
+}
+
+.unobtainableText {
+    color: red;
+    text-align: center;
+    background: darkred;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+.obtainableText {
+    color: green;
+    text-align: center;
+    background: lightgreen;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+.introducionText {
+    margin-top: 100px;
+    font-family: 'Righteous', cursive;
+}
+
+.warningText {
+    color: red;
+    background: black;
+    border-radius: 50px;
+    padding: 10px;
+}
